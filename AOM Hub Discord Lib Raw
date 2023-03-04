@@ -7,7 +7,7 @@ local serv = win:Server("AOM HUB V2", "")
 local btns1 = serv:Channel("Hubs")
 
 btns1:Button("AOM PANEL", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/arko34920v2/VGA/main/AOM%20PANEL'))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/arko34920v2/AOMFORCE/main/AOM%20PANEL')))()
 end)
 
 btns1:Seperator()
